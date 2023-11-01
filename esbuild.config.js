@@ -1,6 +1,6 @@
 import { build } from 'esbuild';
 
-const buildOutputDir = process.argv[2] ?? '.amplify-hosting';
+const buildOutputDir = process.argv[2] || '.amplify-hosting';
 
 const bundle = async () => {
   await Promise.all([
