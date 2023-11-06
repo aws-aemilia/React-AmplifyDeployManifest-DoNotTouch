@@ -1,4 +1,5 @@
 import { build } from 'esbuild';
+import process from 'process';
 
 const buildOutputDir = process.argv[2] || '.amplify-hosting';
 
